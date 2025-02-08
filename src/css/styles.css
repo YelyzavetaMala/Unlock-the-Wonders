@@ -6,14 +6,12 @@
 */
 @import 'modern-normalize';
 /* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+@import url('./Common/reset.css');
+@import url('./Common/base.css');
+@import url('./Common/container.css');
+@import url('./Common/animations.css');
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+
 @import url('./footer.css');

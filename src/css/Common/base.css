@@ -9,9 +9,9 @@
   --footer-bg: #141a19;
 
   /* Breakpoints */
-  --mobile: 360px;
-  --mobile-max: 767.98px;
-  --tablet: 768px;
+  --mobile: 375px;
+  --mobile-max: 833.98px;
+  --tablet: 834px;
   --table-max: 1439.98px;
   --desktop: 1440px;
 
@@ -104,7 +104,7 @@ body::-webkit-scrollbar-track {
   overflow: hidden;
   padding: 64px 0;
 
-  @media (768px<=width) {
+  @media (834px<=width) {
     padding: 100px 0;
   }
 
@@ -118,11 +118,11 @@ body::-webkit-scrollbar-track {
   width: 100%;
   padding: 0 20px;
 
-  @media (360px<=width) {
+  @media (375px<=width) {
     max-width: var(--mobile);
   }
 
-  @media (768px<=width) {
+  @media (834px<=width) {
     max-width: var(--tablet);
     padding: 0 32px;
   }
@@ -164,7 +164,7 @@ body::-webkit-scrollbar-track {
   text-align: center;
   color: var(--primary-text-color);
 
-  @media (768px<=width) {
+  @media (834px<=width) {
     margin-bottom: 56px;
     font-size: 56px;
     line-height: 1.2;

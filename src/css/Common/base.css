@@ -23,9 +23,8 @@
   --background-color: rgba(0, 0, 0, 0.6);
 
   /* Backdrop */
-  --primary-font-family: 'PlayfairDisplay', sans-serif;
-  --secondary-font-family: 'Montserrat', sans-serif;
-  --accent-font-family: 'Hurricane';
+  --primary-font-family: 'Lato', sans-serif;
+  --secondary-font-family: 'Jomolhari', sans-serif;
 
   /* Height-constants */
   --header-height-small: 76px;
@@ -156,13 +155,14 @@ body::-webkit-scrollbar-track {
 
 .section-title {
   margin-bottom: 32px;
-  font-weight: 600;
-  font-size: 32px;
+  margin-top: 80px;
+  font-weight: 400;
+  font-size: 40px;
   line-height: 1.375;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
   text-align: center;
   color: var(--primary-text-color);
+  font-family: var(--secondary-font-family);
 
   @media (834px<=width) {
     margin-bottom: 56px;
@@ -173,4 +173,15 @@ body::-webkit-scrollbar-track {
   @media (1440px<=width) {
     margin-bottom: 72px;
   }
+}
+
+.button {
+  background-color: var(--accent-color);
+  font-family: var(--secondary-font-family);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  line-height: 1.5em;
+  color: var(--primary-text-color);
 }

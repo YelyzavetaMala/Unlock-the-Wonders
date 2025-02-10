@@ -1,6 +1,45 @@
-.hero-inner {
+.header-hero {
   background-image: url('../img/hero-1x.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.hero-inner {
+  text-align: center;
+}
+
+.hero-title {
+  padding-top: 182px;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  line-height: 1.4em;
+  width: 234px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: var(--secondary-font-family);
+}
+
+.hero-text {
+  font-size: 64px;
+  letter-spacing: 0.01em;
+  line-height: 1.5em;
+  font-family: var(--secondary-font-family);
+}
+.hero-button {
+  margin-top: 56px;
+  padding: 12px 52px;
+}
+
+.menu-social {
+  display: flex;
+  justify-content: center; /* Центрує по горизонталі */
+  align-items: center; /* Центрує по вертикалі (якщо потрібно) */
+  gap: 15px; /* Відступи між іконками */
+  height: 100%;
+  margin-top: 225px;
+  margin-bottom: 32px;
+}
+
+.social-svg {
+  fill: var(--primary-text-color);
 }

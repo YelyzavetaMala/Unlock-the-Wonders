@@ -14,5 +14,10 @@
 /* Sections style */
 @import url('./components/header.css');
 @import url('./components/hero.css');
+@import url('./components/about.css');
+@import url('./components/tours.css');
+@import url('./components/gallery.css');
+@import url('./components/reviews.css');
+@import url('./components/travel.css');
 
 @import url('./components/footer.css');

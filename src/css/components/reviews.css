@@ -1,0 +1,29 @@
+.review-item {
+  border: 1px solid;
+  height: 343px;
+  width: 343px;
+  margin-bottom: 30px;
+}
+.reviews-stars {
+  display: flex;
+  margin-top: 6px;
+  gap: 4px;
+}
+.reviews-star {
+  fill: var(--stars-color);
+}
+.review-info {
+  display: flex;
+  margin: 32px 32px;
+}
+.review-img {
+  border-radius: 50%;
+}
+.review-name-star {
+  margin-top: 10px;
+  margin-left: 24px;
+}
+
+.review-text {
+  margin: 0 32px;
+}

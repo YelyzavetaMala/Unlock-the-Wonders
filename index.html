@@ -12,7 +12,7 @@
     />
     <title>Unlock-the-Wonders</title>
     <script type="module" crossorigin src="/Unlock-the-Wonders/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/Unlock-the-Wonders/assets/index-D_6puVo0.css">
+    <link rel="stylesheet" crossorigin href="/Unlock-the-Wonders/assets/index-DompRYgN.css">
   </head>
   <body>
     <div class="header-hero">
@@ -35,7 +35,7 @@
     <div class="hero-inner">
       <h1 class="hero-title">Unlock the Wonders of</h1>
       <p class="hero-text" data-text="Ukraine">Ukraine</p>
-      <button class="button hero-button">Our tours</button>
+      <button class="hero-button">Our tours</button>
       <ul class="menu-social">
         <li>
           <a class="menu-social-item" target="_blank" rel="noopener" href="">
@@ -89,10 +89,23 @@
 
 
       <section class="">
-  <div class="container">
+  <div class="container tours-container">
     <h2 class="section-title">Our tours</h2>
     <ul>
       <li>
+        <picture class="tours-img">
+          <source
+            srcset="../img/tours/tours-synevyr-1x.jpg 1x, ../img/tours/tours-synevyr-2x.jpg 2x"
+            media="(min-width: 375px)"
+            type="image/jpg"
+          />
+          <img
+            class=""
+            loading="lazy"
+            src="../img/tours/tours-synevyr-1x.jpg"
+            alt="Lake Synevyr"
+          />
+        </picture>
         <h3 class="tours-title">Lake Synevyr and Shipit waterfall</h3>
         <p class="tours-text">
           This very interesting excursion will introduce you to the most
@@ -130,9 +143,26 @@
             <p>Travel insurance</p>
           </li>
         </ul>
-        <button class="tours-button">Book</button>
+        <div class="button-wrapper">
+          <button class="tours-button">Book</button>
+        </div>
       </li>
       <li>
+        <picture class="tours-img">
+          <source
+            srcset="../img/tours/tours-history-1x.jpg 1x, ../img/tours/tours-history-2x.jpg 2x"
+            media="(min-width: 375px)"
+            type="image/jpg"
+          />
+          <img
+            class=""
+            loading="lazy"
+            src="../img/tours/tours-history-1x.jpg"
+            alt="Ancient History"
+            width="454"
+            height="409"
+          />
+        </picture>
         <h3 class="tours-title">Ancient History & Vibrant Present</h3>
         <ul class="tours-text">
           <li>Departure from Kiev (08:00)</li>
@@ -171,9 +201,26 @@
             <p>Travel insurance</p>
           </li>
         </ul>
-        <button class="tours-button">Book</button>
+        <div class="button-wrapper">
+          <button class="tours-button">Book</button>
+        </div>
       </li>
       <li>
+        <picture class="tours-img">
+          <source
+            srcset="../img/tours/tours-sea-1x.jpg 1x, ../img/tours/tours-sea-2x.jpg 2x"
+            media="(min-width: 375px)"
+            type="image/jpg"
+          />
+          <img
+            class=""
+            loading="lazy"
+            src="../img/tours/tours-sea-1x.jpg"
+            alt="Black Sea Jewel"
+            width="454"
+            height="409"
+          />
+        </picture>
         <h3 class="tours-title">Black Sea Jewel</h3>
         <ul class="tours-text">
           <li>Departure from Odessa (08:00)</li>
@@ -210,7 +257,9 @@
             <p>Travel insurance</p>
           </li>
         </ul>
-        <button class="tours-button">Book</button>
+        <div class="button-wrapper">
+          <button class="tours-button">Book</button>
+        </div>
       </li>
     </ul>
   </div>
@@ -232,8 +281,6 @@
             loading="lazy"
             src="../img/gallery/gallery-1-1x.jpg "
             alt="photo"
-            width="400"
-            height="494"
           />
         </picture>
       </li>
@@ -351,7 +398,7 @@
             loading="lazy"
             src="../img/gallery/gallery-8-1x.jpg"
             alt="photo"
-            width="400"
+            width="343"
             height="494"
           />
         </picture>

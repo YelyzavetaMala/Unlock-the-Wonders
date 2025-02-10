@@ -175,7 +175,7 @@ body::-webkit-scrollbar-track {
   }
 }
 
-.button {
+button {
   background-color: var(--accent-color);
   font-family: var(--secondary-font-family);
   border: none;

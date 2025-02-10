@@ -1,8 +1,24 @@
 <section class="">
-  <div class="container">
+  <div class="container tours-container">
     <h2 class="section-title">Our tours</h2>
     <ul>
       <li>
+        <picture class="tours-img">
+          <source
+            srcset="
+              ../img/tours/tours-synevyr-1x.jpg 1x,
+              ../img/tours/tours-synevyr-2x.jpg 2x
+            "
+            media="(min-width: 375px)"
+            type="image/jpg"
+          />
+          <img
+            class=""
+            loading="lazy"
+            src="../img/tours/tours-synevyr-1x.jpg"
+            alt="Lake Synevyr"
+          />
+        </picture>
         <h3 class="tours-title">Lake Synevyr and Shipit waterfall</h3>
         <p class="tours-text">
           This very interesting excursion will introduce you to the most
@@ -40,9 +56,29 @@
             <p>Travel insurance</p>
           </li>
         </ul>
-        <button class="tours-button">Book</button>
+        <div class="button-wrapper">
+          <button class="tours-button">Book</button>
+        </div>
       </li>
       <li>
+        <picture class="tours-img">
+          <source
+            srcset="
+              ../img/tours/tours-history-1x.jpg 1x,
+              ../img/tours/tours-history-2x.jpg 2x
+            "
+            media="(min-width: 375px)"
+            type="image/jpg"
+          />
+          <img
+            class=""
+            loading="lazy"
+            src="../img/tours/tours-history-1x.jpg"
+            alt="Ancient History"
+            width="454"
+            height="409"
+          />
+        </picture>
         <h3 class="tours-title">Ancient History & Vibrant Present</h3>
         <ul class="tours-text">
           <li>Departure from Kiev (08:00)</li>
@@ -81,9 +117,29 @@
             <p>Travel insurance</p>
           </li>
         </ul>
-        <button class="tours-button">Book</button>
+        <div class="button-wrapper">
+          <button class="tours-button">Book</button>
+        </div>
       </li>
       <li>
+        <picture class="tours-img">
+          <source
+            srcset="
+              ../img/tours/tours-sea-1x.jpg 1x,
+              ../img/tours/tours-sea-2x.jpg 2x
+            "
+            media="(min-width: 375px)"
+            type="image/jpg"
+          />
+          <img
+            class=""
+            loading="lazy"
+            src="../img/tours/tours-sea-1x.jpg"
+            alt="Black Sea Jewel"
+            width="454"
+            height="409"
+          />
+        </picture>
         <h3 class="tours-title">Black Sea Jewel</h3>
         <ul class="tours-text">
           <li>Departure from Odessa (08:00)</li>
@@ -120,7 +176,9 @@
             <p>Travel insurance</p>
           </li>
         </ul>
-        <button class="tours-button">Book</button>
+        <div class="button-wrapper">
+          <button class="tours-button">Book</button>
+        </div>
       </li>
     </ul>
   </div>

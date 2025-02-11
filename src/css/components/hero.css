@@ -17,6 +17,11 @@
   margin: 0 auto;
   text-align: center;
   font-family: var(--secondary-font-family);
+  @media screen and (min-width: 834px) {
+    font-size: 48px;
+    width: 468px;
+    padding-top: 236px;
+  }
 }
 
 .hero-text {
@@ -24,22 +29,42 @@
   letter-spacing: 0.01em;
   line-height: 1.5em;
   font-family: var(--secondary-font-family);
+  @media screen and (min-width: 834px) {
+    font-size: 128px;
+    line-height: 0.83em;
+  }
 }
+
 .hero-button {
   margin-top: 56px;
   padding: 12px 52px;
+  @media screen and (min-width: 834px) {
+    margin-top: 90px;
+  }
 }
 
 .menu-social {
   display: flex;
   justify-content: center;
+  flex-direction: row;
   align-items: center;
   gap: 15px;
   height: 100%;
   margin-top: 225px;
   margin-bottom: 28px;
+  @media screen and (min-width: 834px) {
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 142px;
+    margin-bottom: 64px;
+  }
 }
 
 .social-svg {
   fill: var(--primary-text-color);
+  @media screen and (min-width: 834px) {
+    width: 20px;
+    height: 20px;
+  }
 }

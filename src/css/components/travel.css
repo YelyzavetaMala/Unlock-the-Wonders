@@ -3,9 +3,12 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 800px;
 }
 .travel-background {
+  margin-top: 30px;
   background-color: var(--body-bg);
+  height: 692px;
 }
 
 .travel-title {

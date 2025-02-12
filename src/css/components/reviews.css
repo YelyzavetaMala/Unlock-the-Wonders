@@ -1,8 +1,18 @@
+.review {
+  @media screen and (min-width: 834px) {
+    margin-top: 55px;
+  }
+}
+
 .review-item {
   border: 1px solid;
   height: 343px;
   width: 343px;
   margin-bottom: 30px;
+  @media screen and (min-width: 834px) {
+    width: 320px;
+    height: 352px;
+  }
 }
 .reviews-stars {
   display: flex;

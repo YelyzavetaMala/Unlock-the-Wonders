@@ -1,3 +1,26 @@
+.about {
+  @media screen and (min-width: 834px) {
+    margin-top: 55px;
+  }
+}
+
 .section-text {
   margin-bottom: 34px;
+  @media screen and (min-width: 834px) {
+    max-width: 369px;
+  }
+}
+.about-text {
+  @media screen and (min-width: 834px) {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 32px;
+    margin-bottom: 132px;
+  }
+}
+
+.about-text-second {
+  @media screen and (min-width: 834px) {
+  }
 }

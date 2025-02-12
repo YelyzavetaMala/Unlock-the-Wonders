@@ -10,6 +10,10 @@
   display: flex; /* Додає флекс для центрування */
   justify-content: center;
   align-items: center;
+  @media screen and (min-width: 834px) {
+    width: 918px;
+    height: 642px;
+  }
 }
 
 .tours-img img {
@@ -25,9 +29,33 @@
   letter-spacing: 0.01em;
   text-align: left;
   font-family: var(--secondary-font-family);
+  @media screen and (min-width: 834px) {
+    margin: 40px 32px 24px;
+    font-size: 32px;
+  }
 }
+
+.tours-info {
+  @media screen and (min-width: 834px) {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 32px;
+  }
+}
+.tours-included-info {
+  @media screen and (min-width: 834px) {
+    align-items: start;
+  }
+}
+
 .tours-text {
   padding: 0 16px;
+  @media screen and (min-width: 834px) {
+    padding-left: 32px;
+    padding-right: 0;
+    max-width: 496px;
+  }
 }
 
 .tours-included {
@@ -36,6 +64,9 @@
   line-height: 1.4;
   letter-spacing: 0.01em;
   font-family: var(--secondary-font-family);
+  @media screen and (min-width: 834px) {
+    margin: 0 32px;
+  }
 }
 
 .included-item {
@@ -48,17 +79,28 @@
 }
 .included-list {
   padding-left: 16px;
+  @media screen and (min-width: 834px) {
+    padding-left: 32px;
+    margin-top: 16px;
+  }
 }
 
 .included-item svg {
   fill: var(--primary-text-color);
 }
 .button-wrapper {
-  width: 100%; /* Щоб `text-align: center` працював */
+  width: 100%;
   text-align: center;
+  @media screen and (min-width: 834px) {
+    text-align: start;
+    padding-left: 32px;
+  }
 }
 .tours-button {
   padding: 16px 152px;
   margin-top: 20px;
   margin-bottom: 43px;
+  @media screen and (min-width: 834px) {
+    padding: 16px 64px;
+  }
 }

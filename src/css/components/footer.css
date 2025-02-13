@@ -1,7 +1,7 @@
 .footer {
-  padding-top: 96px;
+  padding-top: 80px;
   @media screen and (min-width: 834px) {
-    padding-top: 132px;
+    padding-top: 100px;
   }
 }
 

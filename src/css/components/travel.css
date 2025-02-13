@@ -1,26 +1,63 @@
+.travel-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .travel-inner {
   background-image: url('../img/travel-1x.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 800px;
+  position: relative;
+  @media screen and (min-width: 834px) {
+    height: 786px;
+    background-position: left;
+    width: 602px;
+  }
 }
 .travel-background {
-  margin-top: 30px;
   background-color: var(--body-bg);
   height: 692px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 16px;
+  @media screen and (min-width: 834px) {
+    left: 69%;
+    height: 516px;
+    width: 770px;
+    border: 1px solid var(--primary-text-color);
+    border-radius: 4px;
+    display: flex;
+
+    align-items: start;
+    padding: 69px 49px;
+  }
+}
+
+.travel-column-first {
+  @media screen and (min-width: 834px) {
+  }
 }
 
 .travel-title {
   text-align: left;
   font-size: 32px;
   letter-spacing: 0.01em;
-  line-height: 1.2;
+  line-height: 1.4;
   margin-bottom: 24px;
+  margin-top: 40px;
+  @media screen and (min-width: 834px) {
+    margin-top: 0;
+  }
 }
 .travel-text-first {
   margin-right: 23px;
   margin-bottom: 24px;
+  @media screen and (min-width: 834px) {
+  }
 }
 .travel-text-second {
   margin-right: 23px;
@@ -32,6 +69,9 @@
   flex-direction: column;
   gap: 12px;
   align-items: flex-start;
+  @media screen and (min-width: 834px) {
+    max-width: 320px;
+  }
 }
 
 .form-label {
@@ -65,4 +105,7 @@
   padding: 16px 152px;
   margin-top: 20px;
   margin-bottom: 43px;
+  @media screen and (min-width: 834px) {
+    padding: 16px 142px;
+  }
 }

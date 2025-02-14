@@ -22,6 +22,9 @@
     width: 468px;
     padding-top: 236px;
   }
+  @media screen and (min-width: 1440px) {
+    padding-top: 144px;
+  }
 }
 
 .hero-text {
@@ -41,6 +44,9 @@
   @media screen and (min-width: 834px) {
     margin-top: 90px;
   }
+  @media screen and (min-width: 1440px) {
+    padding: 16px 52px;
+  }
 }
 
 .menu-social {
@@ -58,6 +64,10 @@
     align-items: flex-end;
     margin-top: 142px;
     margin-bottom: 64px;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-top: 4px;
+    margin-bottom: 100px;
   }
 }
 

@@ -7,6 +7,25 @@
   }
 }
 
+.about-background {
+  background-image: linear-gradient(
+      rgba(20, 26, 25, 0.9),
+      rgba(20, 26, 25, 0.9)
+    ),
+    url('../img/about-1x.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 430px;
+  padding-left: 0;
+
+  @media screen and (min-width: 834px) {
+    height: 614px;
+  }
+  @media screen and (min-width: 1440px) {
+    height: 573px;
+  }
+}
 .section-text {
   margin-bottom: 34px;
   @media screen and (min-width: 834px) {

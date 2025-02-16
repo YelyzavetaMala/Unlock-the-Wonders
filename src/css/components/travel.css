@@ -15,6 +15,10 @@
     background-position: left;
     width: 602px;
   }
+  @media screen and (min-width: 1440px) {
+    height: 840px;
+    width: 704px;
+  }
 }
 .travel-background {
   background-color: var(--body-bg);
@@ -34,6 +38,12 @@
 
     align-items: start;
     padding: 69px 49px;
+  }
+  @media screen and (min-width: 1440px) {
+    height: 570px;
+    width: 1031px;
+    left: 127%;
+    padding: 96px 180px;
   }
 }
 

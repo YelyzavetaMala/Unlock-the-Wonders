@@ -14,6 +14,10 @@
     width: 834px;
     height: 642px;
   }
+  @media screen and (min-width: 1440px) {
+    width: 704px;
+    height: 515px;
+  }
 }
 
 .tours-img img {
@@ -30,7 +34,7 @@
   text-align: left;
   font-family: var(--secondary-font-family);
   @media screen and (min-width: 834px) {
-    margin: 40px 32px 24px;
+    margin: 40px 32px 28px;
     font-size: 32px;
   }
 }
@@ -42,19 +46,29 @@
     align-items: start;
     gap: 32px;
   }
+  @media screen and (min-width: 1440px) {
+    display: block;
+  }
 }
 .tours-included-info {
   @media screen and (min-width: 834px) {
     align-items: start;
   }
+  @media screen and (min-width: 1440px) {
+    margin-top: 18px;
+  }
 }
 
 .tours-text {
   padding: 0 16px;
+  list-style-type: disc;
   @media screen and (min-width: 834px) {
     padding-left: 32px;
     padding-right: 0;
     max-width: 496px;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-left: 24px;
   }
 }
 
@@ -102,5 +116,8 @@
   margin-bottom: 43px;
   @media screen and (min-width: 834px) {
     padding: 16px 64px;
+  }
+  @media screen and (min-width: 1440px) {
+    padding: 16px 52px;
   }
 }

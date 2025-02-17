@@ -3,6 +3,18 @@
   padding-right: 0;
 }
 
+.swiper-wrapper-tours {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.tours-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .tours-img {
   width: 375px;
   height: 409px;

@@ -1,3 +1,41 @@
+.gallery-container {
+  @media screen and (min-width: 1440px) {
+    padding-right: 0;
+    padding-left: 16px;
+  }
+}
+
+.swiper-wrapper {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--primary-text-color); /* Білий колір стрілок */
+  position: absolute; /* Абсолютне позиціонування */
+  bottom: 10px; /* Відстань від нижнього краю */
+  z-index: 10; /* Потрібно, щоб кнопки не перекривали слайд */
+  font-size: 30px; /* Розмір стрілок */
+}
+
+/* Додаємо відступ до нижньої частини слайдера */
+.swiper {
+  padding-bottom: 50px; /* Відступ для того, щоб стрілки не перекривали слайди */
+}
+
+/* Якщо треба, можна зробити стрілки більшими */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 40px; /* Розмір для псевдоелементів */
+}
+
 .gallery-img {
   width: 343px;
   height: 494px;

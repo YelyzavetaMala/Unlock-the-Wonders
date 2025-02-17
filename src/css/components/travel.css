@@ -4,7 +4,7 @@
 }
 
 .travel-inner {
-  background-image: url('../img/travel-1x.jpg');
+  background-image: url('/img/travel-1x.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

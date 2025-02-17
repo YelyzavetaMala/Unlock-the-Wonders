@@ -22,7 +22,7 @@ const reviewsSwiper = new Swiper('.tours-swiper', {
       spaceBetween: 16,
     },
     834: {
-      slidesPerView: 2.5,
+      slidesPerView: 1,
       spaceBetween: 32,
     },
     1440: {

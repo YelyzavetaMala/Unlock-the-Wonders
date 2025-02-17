@@ -22,12 +22,12 @@ const reviewsSwiper = new Swiper('.gallery', {
       spaceBetween: 16,
     },
     834: {
-      slidesPerView: 2.5,
-      spaceBetween: 32,
+      slidesPerView: 2,
+      spaceBetween: 16,
     },
     1440: {
       slidesPerView: 4,
-      spaceBetween: 32,
+      spaceBetween: 16,
     },
   },
 });

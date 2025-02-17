@@ -1,19 +1,15 @@
 import Swiper from 'swiper';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-
-const swiper3 = new Swiper('.swiper-container-3', {
+const reviewsSwiper = new Swiper('.reviews-swiper', {
   modules: [Navigation, Pagination, Autoplay],
   loop: true,
   navigation: {
-    nextEl: '.swiper-button-next-3',
-    prevEl: '.swiper-button-prev-3',
+    nextEl: '.review-button-next',
+    prevEl: '.review-button-prev',
   },
   pagination: {
-    el: '.swiper-pagination-3',
+    el: '.review-pagination',
     clickable: true,
   },
   autoplay: {
@@ -29,7 +25,6 @@ const swiper3 = new Swiper('.swiper-container-3', {
       slidesPerView: 2.5,
       spaceBetween: 32,
     },
-
     1440: {
       slidesPerView: 4,
       spaceBetween: 32,

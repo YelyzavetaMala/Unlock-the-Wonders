@@ -1,19 +1,15 @@
 import Swiper from 'swiper';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-
-const swiper1 = new Swiper('.swiper-container-1', {
+const reviewsSwiper = new Swiper('.tours-swiper', {
   modules: [Navigation, Pagination, Autoplay],
   loop: true,
   navigation: {
-    nextEl: '.swiper-button-next-1',
-    prevEl: '.swiper-button-prev-1',
+    nextEl: '.tours-button-next',
+    prevEl: '.tours-button-prev',
   },
   pagination: {
-    el: '.swiper-pagination-1',
+    el: '.tours-pagination',
     clickable: true,
   },
   autoplay: {
@@ -23,15 +19,14 @@ const swiper1 = new Swiper('.swiper-container-1', {
   breakpoints: {
     375: {
       slidesPerView: 1,
-      spaceBetween: 32,
+      spaceBetween: 16,
     },
     834: {
-      slidesPerView: 1,
+      slidesPerView: 2.5,
       spaceBetween: 32,
     },
-
     1440: {
-      slidesPerView: 2,
+      slidesPerView: 4,
       spaceBetween: 32,
     },
   },

@@ -1,38 +1,33 @@
 import Swiper from 'swiper';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-
-const swiper2 = new Swiper('.swiper-container-2', {
+const reviewsSwiper = new Swiper('.gallery', {
   modules: [Navigation, Pagination, Autoplay],
   loop: true,
   navigation: {
-    nextEl: '.swiper-button-next-2',
-    prevEl: '.swiper-button-prev-2',
+    nextEl: '.gallery-button-next',
+    prevEl: '.gallery-button-prev',
   },
   pagination: {
-    el: '.swiper-pagination-2',
+    el: '.gallery-pagination',
     clickable: true,
   },
   autoplay: {
     delay: 3000,
     disableOnInteraction: false,
   },
-
   breakpoints: {
-    320: {
+    375: {
       slidesPerView: 1,
       spaceBetween: 16,
     },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 16,
+    834: {
+      slidesPerView: 2.5,
+      spaceBetween: 32,
     },
-    1024: {
-      slidesPerView: 3.5,
-      spaceBetween: 16,
+    1440: {
+      slidesPerView: 4,
+      spaceBetween: 32,
     },
   },
 });

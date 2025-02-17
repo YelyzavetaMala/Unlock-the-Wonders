@@ -15,6 +15,12 @@
   align-items: center;
 }
 
+.first-slider-section .swiper-button-next,
+.first-slider-section .swiper-button-prev,
+.first-slider-section .swiper-pagination {
+  color: aliceblue;
+}
+
 .tours-img {
   width: 375px;
   height: 409px;

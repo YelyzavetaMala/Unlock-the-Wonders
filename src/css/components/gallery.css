@@ -16,24 +16,11 @@
   justify-content: center;
   align-items: center;
 }
-.swiper-button-next,
-.swiper-button-prev {
-  color: var(--primary-text-color); /* Білий колір стрілок */
-  position: absolute; /* Абсолютне позиціонування */
-  bottom: 10px; /* Відстань від нижнього краю */
-  z-index: 10; /* Потрібно, щоб кнопки не перекривали слайд */
-  font-size: 30px; /* Розмір стрілок */
-}
 
-/* Додаємо відступ до нижньої частини слайдера */
-.swiper {
-  padding-bottom: 50px; /* Відступ для того, щоб стрілки не перекривали слайди */
-}
-
-/* Якщо треба, можна зробити стрілки більшими */
-.swiper-button-next::after,
-.swiper-button-prev::after {
-  font-size: 40px; /* Розмір для псевдоелементів */
+.second-slider-section .swiper-button-next,
+.second-slider-section .swiper-button-prev,
+.second-slider-section .swiper-pagination {
+  color: antiquewhite;
 }
 
 .gallery-img {

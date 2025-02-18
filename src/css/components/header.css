@@ -57,21 +57,27 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    180deg,
-    rgba(252, 209, 234, 0.7) 0%,
-    rgba(255, 218, 185, 0.7) 100%
-  );
-  overflow-y: auto;
+
+  background-color: rgba(20, 26, 25, 1);
+}
+
+.modal::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(20, 26, 25, 1), rgba(0, 0, 0, 0)),
+    url('../img/modal-background.jpg') center/cover no-repeat;
+  opacity: 0.8; /* Контроль прозорості */
 }
 
 .modal-content {
-  background-color: rgb(196, 27, 27);
   margin: 138px auto;
   padding: 40px 50px;
   border-radius: 8px;
   width: 256px;
-  text-align: center;
   position: relative;
 }
 
@@ -88,6 +94,14 @@
   height: 12px;
 }
 
+.modal-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
 .modal-item:not(:last-child) {
   margin-bottom: 30px;
 }
@@ -97,15 +111,16 @@
   align-items: center;
   gap: 18px;
   letter-spacing: -0.03em;
-  transition: rgb(219, 8, 8);
+  transition: var(--accent-color);
+  font-weight: 700;
 }
 
 .modal-nav:hover,
 .modal-nav:active,
 .modal-nav:focus {
-  color: rgb(231, 30, 30);
-  font-weight: 600;
+  color: var(--accent-color);
   letter-spacing: -0.04em;
+  font-weight: 700;
 }
 
 .body-no-scroll {

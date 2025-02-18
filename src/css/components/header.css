@@ -49,3 +49,65 @@
     display: none;
   }
 }
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 25;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(252, 209, 234, 0.7) 0%,
+    rgba(255, 218, 185, 0.7) 100%
+  );
+  overflow-y: auto;
+}
+
+.modal-content {
+  background-color: rgb(196, 27, 27);
+  margin: 138px auto;
+  padding: 40px 50px;
+  border-radius: 8px;
+  width: 256px;
+  text-align: center;
+  position: relative;
+}
+
+.close-btn {
+  float: right;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 57px;
+  right: 20px;
+}
+.close-svg {
+  width: 12px;
+  height: 12px;
+}
+
+.modal-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.modal-nav {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  letter-spacing: -0.03em;
+  transition: rgb(219, 8, 8);
+}
+
+.modal-nav:hover,
+.modal-nav:active,
+.modal-nav:focus {
+  color: rgb(231, 30, 30);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+
+.body-no-scroll {
+  overflow: hidden;
+}

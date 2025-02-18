@@ -1,3 +1,14 @@
+.review-background {
+  background: linear-gradient(
+      to bottom,
+      rgba(20, 26, 25, 1) 0%,
+      transparent 30%,
+      transparent 70%,
+      rgba(20, 26, 25, 1) 100%
+    ),
+    url('/img/modal-background.jpg') center/cover no-repeat;
+}
+
 .review {
   @media screen and (min-width: 834px) {
     margin-top: 55px;
@@ -15,43 +26,10 @@
   }
 }
 
-.review-slider-wrapper {
-  position: relative;
-  padding: 0 40px; /* Для кнопок навігації */
-}
-
-/* Позиціонування кнопок навігації */
-.review-button-next,
-.review-button-prev {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-}
-
-.review-button-prev {
-  left: 0;
-}
-
-.review-button-next {
-  right: 0;
-}
-
-/* Стилізація пагінації */
-.review-pagination {
-  position: relative;
-  bottom: 0;
-  margin-top: 20px;
-}
-
-/* Специфічність для пагінації цього слайдера */
-.review-slider-wrapper .swiper-pagination-bullet {
-  background: #000; /* або ваш колір */
-  opacity: 0.5;
-}
-
-.review-slider-wrapper .swiper-pagination-bullet-active {
-  opacity: 1;
+.review-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .reviews-stars {
@@ -68,6 +46,7 @@
 }
 .review-img {
   border-radius: 50%;
+  display: block;
 }
 .review-name-star {
   margin-top: 10px;

@@ -5,22 +5,10 @@
   }
 }
 
-.swiper-wrapper {
-  padding: 0;
-  margin: 0;
+.gallery-list {
   display: flex;
-}
-
-.swiper-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.second-slider-section .swiper-button-next,
-.second-slider-section .swiper-button-prev,
-.second-slider-section .swiper-pagination {
-  color: antiquewhite;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .gallery-img {

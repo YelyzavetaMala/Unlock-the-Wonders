@@ -88,12 +88,12 @@
   top: 15px;
   right: 57px;
   right: 20px;
-  fill: aqua;
+  fill: var(--primary-text-color);
 }
 .close-svg {
   width: 12px;
   height: 12px;
-  fill: aqua;
+  fill: var(--primary-text-color);
 }
 
 .modal-list {

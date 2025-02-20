@@ -170,7 +170,7 @@ body::-webkit-scrollbar-track {
 .slider-wrapper {
   max-width: 600px;
   position: relative;
-  margin: 20px auto;
+  margin: 0 auto;
   overflow: hidden;
 }
 

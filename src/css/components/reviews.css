@@ -26,12 +26,6 @@
   }
 }
 
-.review-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
 .reviews-stars {
   display: flex;
   margin-top: 6px;
@@ -40,19 +34,37 @@
 .reviews-star {
   fill: var(--stars-color);
 }
+
+.review-info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: 100%;
+}
+
 .review-info {
   display: flex;
+
   margin: 32px 32px;
 }
+
 .review-img {
   border-radius: 50%;
   display: block;
 }
+
+.review-name {
+  font-size: 18px;
+  font-family: var(--secondary-font-family);
+}
+
 .review-name-star {
   margin-top: 10px;
   margin-left: 24px;
 }
 
 .review-text {
+  font-size: 16px;
   margin: 0 32px;
 }

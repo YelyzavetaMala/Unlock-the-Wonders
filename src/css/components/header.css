@@ -34,6 +34,12 @@
   fill: var(--primary-text-color);
 }
 
+.menu-svg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .menu-button {
   padding: 4px 4px;
   border: 1px transparent;

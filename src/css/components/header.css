@@ -74,8 +74,8 @@
 }
 
 .modal-content {
-  margin: 138px auto;
-  padding: 40px 50px;
+  margin: 16px auto;
+  padding: 198px 50px;
   border-radius: 8px;
   width: 256px;
   position: relative;
@@ -114,14 +114,14 @@
   align-items: center;
   gap: 18px;
   letter-spacing: -0.03em;
-  transition: var(--accent-color);
+  transition: text-shadow 0.3s ease-in-out;
   font-weight: 700;
 }
 
 .modal-nav:hover,
 .modal-nav:active,
 .modal-nav:focus {
-  color: var(--accent-color);
+  text-shadow: 2px 2px 5px var(--accent-color);
   letter-spacing: -0.04em;
   font-weight: 700;
 }

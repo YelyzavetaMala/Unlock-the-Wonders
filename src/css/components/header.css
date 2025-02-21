@@ -80,20 +80,30 @@
 }
 
 .modal-content {
-  margin: 16px auto;
-  padding: 198px 50px;
+  margin: 0 auto;
+  padding: 260px 50px;
   border-radius: 8px;
   width: 256px;
   position: relative;
+}
+
+.menu-social-modal {
+  float: left;
+  cursor: pointer;
+  position: absolute;
+  top: 16px;
+
+  left: -46px;
+  fill: var(--primary-text-color);
 }
 
 .close-btn {
   float: right;
   cursor: pointer;
   position: absolute;
-  top: 15px;
-  right: 57px;
-  right: 20px;
+  top: 16px;
+
+  right: -46px;
   fill: var(--primary-text-color);
 }
 .close-svg {
@@ -109,10 +119,12 @@
   justify-content: center;
   font-weight: 700;
   font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
 }
 
 .modal-item:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 .modal-nav {

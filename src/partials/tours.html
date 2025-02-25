@@ -1,10 +1,10 @@
 <section id="tours" class="tours">
   <div class="container tours-container">
     <h2 class="section-title">Our tours</h2>
-    <div class="">
-      <div class="slider-wrapper slider-1">
-        <ul class="slider">
-          <li class="slide">
+    <div class="swiper-tours">
+      <div class="swiper swiper-tours-init">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
             <div>
               <picture class="tours-img">
                 <source
@@ -76,8 +76,8 @@
                 <button class="button tours-button">Book</button>
               </div>
             </div>
-          </li>
-          <li class="slide">
+          </div>
+          <div class="swiper-slide">
             <div>
               <picture class="tours-img">
                 <source
@@ -150,8 +150,8 @@
                 <button class="button tours-button">Book</button>
               </div>
             </div>
-          </li>
-          <li class="slide">
+          </div>
+          <div class="swiper-slide">
             <div>
               <picture class="tours-img">
                 <source
@@ -223,11 +223,16 @@
                 <button class="button tours-button">Book</button>
               </div>
             </div>
-          </li>
-        </ul>
+          </div>
+          ...
+        </div>
 
-        <button class="slider-btn prev">←</button>
-        <button class="slider-btn next">→</button>
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-prev swiper-btn-prev"></div>
+        <div class="swiper-button-next swiper-btn-next"></div>
+
+        <div class="swiper-scrollbar"></div>
       </div>
     </div>
   </div>

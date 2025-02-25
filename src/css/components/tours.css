@@ -4,15 +4,9 @@
 }
 
 .tours-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
 }
 
 .tours-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .tours-img {

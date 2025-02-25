@@ -43,13 +43,12 @@
   content: attr(data-text);
   position: absolute;
   left: 0;
-  top: 110%; /* розміщуємо відображення одразу під текстом */
+  top: 65%;
   width: 100%;
-  transform: scaleY(-1); /* перевертаємо текст по вертикалі */
-  opacity: 0.3; /* регулюємо прозорість відображення */
+  transform: scaleY(-1);
+  opacity: 0.3;
   color: var(--primary-text-color);
 
-  /* Додаємо градієнтну маску для плавного зникання */
   -webkit-mask-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0) 35%,
@@ -60,8 +59,9 @@
     rgba(0, 0, 0, 0) 35%,
     rgba(0, 0, 0, 1) 100%
   );
-
-  /* Плавний перехід */
+  @media screen and (min-width: 834px) {
+    top: 110%;
+  }
 }
 
 .hero-button {

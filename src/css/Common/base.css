@@ -7,6 +7,7 @@
   --input-bg: #141a19;
   --input-text: #b9b9b9;
   --footer-bg: #141a19;
+  --swiper-theme-color: #ffffff !important;
 
   /* Breakpoints */
   --mobile: 375px;
@@ -167,30 +168,10 @@ body::-webkit-scrollbar-track {
   color: var(--primary-text-color);
 }
 
-.slider-wrapper {
-  position: relative;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.slider {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.slide {
-  min-width: 100%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  color: white;
-}
-
 /* Різні кольори для різних слайдерів */
 
-.slider-btn {
+.swiper-button-next,
+.swiper-button-prev {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -202,16 +183,4 @@ body::-webkit-scrollbar-track {
   font-size: 18px;
   border-radius: 5px;
   transition: background 0.3s;
-}
-
-.slider-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.prev {
-  left: 10px;
-}
-
-.next {
-  right: 10px;
 }

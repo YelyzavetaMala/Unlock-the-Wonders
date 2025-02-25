@@ -28,6 +28,15 @@
   }
 }
 
+.menu-link-header:hover,
+.menu-link-header:active,
+.menu-link-header:focus {
+  font-weight: bold;
+  letter-spacing: 0.01em;
+  border-bottom: 2px solid var(--primary-text-color);
+  padding-bottom: 2px;
+}
+
 .header-menu {
   max-width: 24px;
   max-height: 20px;
@@ -139,7 +148,7 @@
 .modal-nav:hover,
 .modal-nav:active,
 .modal-nav:focus {
-  text-shadow: 2px 2px 5px var(--accent-color);
+  text-shadow: 2px 2px 5px var(--primary-text-color);
   letter-spacing: -0.04em;
   font-weight: 700;
 }

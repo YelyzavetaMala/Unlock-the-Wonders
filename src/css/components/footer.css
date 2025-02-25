@@ -25,7 +25,8 @@
   }
 }
 
-.menu-item {
+.menu-link {
+  font-size: 16px;
   letter-spacing: 0.013em;
   line-height: 1.9;
   font-family: var(--secondary-font-family);
@@ -34,6 +35,15 @@
     line-height: 2.3;
   }
 }
+
+.menu-link:hover,
+.menu-link:active,
+.menu-link:focus {
+  font-weight: bold;
+  letter-spacing: 0.01em;
+  border-bottom: 1px solid var(--primary-text-color);
+}
+
 .footer-info-list {
   margin-top: 22px;
 }

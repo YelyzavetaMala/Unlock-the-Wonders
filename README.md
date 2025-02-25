@@ -1,6 +1,6 @@
 # Features
 
-Adaptive layout for mobile and desktop.
+Adaptive layout for mobile, tablet and desktop.
 Mobile-first layout.
 
 ## Technologies

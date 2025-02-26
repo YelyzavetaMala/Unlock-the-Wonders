@@ -166,8 +166,12 @@ body::-webkit-scrollbar-track {
   letter-spacing: 0.01em;
   line-height: 1.5em;
   color: var(--primary-text-color);
+  transition: transform 250ms ease-in-out;
 }
 
+.button:hover {
+  transform: scale(1.1);
+}
 /* Різні кольори для різних слайдерів */
 
 .swiper-button-next,

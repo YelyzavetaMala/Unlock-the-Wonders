@@ -28,11 +28,17 @@
   }
 }
 
+.menu-item-header {
+  transition: transform 250ms ease-in-out;
+}
+
+.menu-item-header:hover {
+  transform: scale(1.1);
+}
+
 .menu-link-header:hover,
 .menu-link-header:active,
 .menu-link-header:focus {
-  font-weight: bold;
-  letter-spacing: 0.01em;
   border-bottom: 2px solid var(--primary-text-color);
   padding-bottom: 2px;
 }
@@ -148,8 +154,6 @@
 .modal-nav:hover,
 .modal-nav:active,
 .modal-nav:focus {
-  font-weight: bold;
-  letter-spacing: 0.01em;
   border-bottom: 2px solid var(--primary-text-color);
   padding-bottom: 2px;
 }
